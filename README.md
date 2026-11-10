@@ -1,24 +1,24 @@
-# Task 2: Stock Portfolio Tracker
+# Task 3: Task Automation – Email Extractor
 
-A console application that calculates the value of a small stock portfolio using manually defined sample prices.
+A small Python automation script that finds email addresses in a text file and writes the unique results to another text file.
 
-## Features
-- Displays a hardcoded dictionary of stock symbols and sample prices.
-- Accepts stock symbols and share quantities from the user.
-- Calculates each holding's value and the total investment.
-- Optionally saves the summary to `portfolio.txt`.
+## Files
+- `extract_emails.py`: reads the input, extracts email addresses, and saves them.
+- `sample_text.txt`: sample input file that you can edit or replace.
+- `extracted_emails.txt`: generated output file (created when the script runs).
 
 ## Requirements
 - Python 3
 - No external packages
 
 ## Run
+Keep `extract_emails.py` and `sample_text.txt` in the same folder, then run:
 ```bash
-python stock_tracker.py
+python extract_emails.py
 ```
 
-## Note
-The prices are fixed demonstration values, not live market prices or financial advice. The program uses USD for display.
-
 ## Concepts used
-Dictionaries, loops, input/output, validation, arithmetic, and file handling.
+`re` (regular expressions), `pathlib`, file handling, functions, and sets.
+
+## How it works
+The script reads `sample_text.txt`, finds email-like strings using a regular expression, removes duplicates, sorts the results, and writes them to `extracted_emails.txt`.
