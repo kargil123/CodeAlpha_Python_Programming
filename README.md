@@ -1,13 +1,12 @@
-# Task 1: Hangman Game
+# Task 2: Stock Portfolio Tracker
 
-A simple text-based Hangman game written in Python.
+A console application that calculates the value of a small stock portfolio using manually defined sample prices.
 
 ## Features
-- Selects one word randomly from five predefined words.
-- Accepts one-letter guesses through the console.
-- Allows up to six incorrect guesses.
-- Checks invalid and repeated input.
-- Displays whether the player wins or loses.
+- Displays a hardcoded dictionary of stock symbols and sample prices.
+- Accepts stock symbols and share quantities from the user.
+- Calculates each holding's value and the total investment.
+- Optionally saves the summary to `portfolio.txt`.
 
 ## Requirements
 - Python 3
@@ -15,8 +14,11 @@ A simple text-based Hangman game written in Python.
 
 ## Run
 ```bash
-python hangman.py
+python stock_tracker.py
 ```
 
+## Note
+The prices are fixed demonstration values, not live market prices or financial advice. The program uses USD for display.
+
 ## Concepts used
-`random`, lists, strings, sets, loops, conditionals, and input/output.
+Dictionaries, loops, input/output, validation, arithmetic, and file handling.
