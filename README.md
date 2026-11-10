@@ -1,24 +1,24 @@
-# Task 3: Task Automation – Email Extractor
+# CodeAlpha Python Programming Internship
 
-A small Python automation script that finds email addresses in a text file and writes the unique results to another text file.
+This repository contains my four Python programming tasks completed for the CodeAlpha Internship.
 
-## Files
-- `extract_emails.py`: reads the input, extracts email addresses, and saves them.
-- `sample_text.txt`: sample input file that you can edit or replace.
-- `extracted_emails.txt`: generated output file (created when the script runs).
+## Projects
 
-## Requirements
-- Python 3
-- No external packages
+### Task 1: Hangman Game
+A word-guessing game where users guess letters to find a hidden word.
 
-## Run
-Keep `extract_emails.py` and `sample_text.txt` in the same folder, then run:
-```bash
-python extract_emails.py
-```
+### Task 2: Stock Portfolio Tracker
+A simple program to calculate the total value of a stock portfolio using sample stock prices.
 
-## Concepts used
-`re` (regular expressions), `pathlib`, file handling, functions, and sets.
+### Task 3: Email Extractor
+A Python automation script that extracts email addresses from a text file using regular expressions.
 
-## How it works
-The script reads `sample_text.txt`, finds email-like strings using a regular expression, removes duplicates, sorts the results, and writes them to `extracted_emails.txt`.
+### Task 4: Basic Chatbot
+A simple rule-based chatbot that responds to basic user messages.
+
+## Technologies Used
+- Python
+- Random module
+- Regular Expressions
+- File Handling
+- Basic Programming Concepts
